@@ -14,7 +14,7 @@ load_dotenv()
 
 # --- File Path for Market Cap Data ---
 # This is the full path to your local JSON cache file.
-MARKET_CAP_FILE_PATH = r"C:\Users\david\OneDrive\Documents\DS - Coding - Python\Stocks\Alpaca\Backup marketcap\market_cap_cache.json"
+MARKET_CAP_FILE_PATH = r"C:\Users\USERNAME\OneDrive\Documents\DS - Coding - Python\Stocks\Alpaca\Backup marketcap\market_cap_cache.json"
 
 # --- Configure Logging ---
 logging.basicConfig(

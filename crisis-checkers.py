@@ -16,7 +16,7 @@ load_dotenv()
 
 # --- Configuración de Rutas de Archivo ---
 # Los archivos de caché se guardarán en esta carpeta específica.
-TARGET_DIRECTORY = r"C:\Users\david\OneDrive\Documents\DS - Coding - Python\Stocks\Alpaca"
+TARGET_DIRECTORY = r"C:\Users\USERNAME\OneDrive\Documents\DS - Coding - Python\Stocks\Alpaca"
 # Crea el directorio si no existe para evitar errores.
 os.makedirs(TARGET_DIRECTORY, exist_ok=True)
 
