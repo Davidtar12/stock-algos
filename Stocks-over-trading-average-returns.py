@@ -10,7 +10,7 @@ load_dotenv()
 
 
 # --- Credentials ---
-LOGIN = ADMIRALS_ACCOUNT
+LOGIN = int(os.getenv("ADMIRALS_LOGIN", "0"))
 PASSWORD = os.getenv('ADMIRAL_PASSWORD')
 SERVER = "AdmiralsSC-Demo"
 MT5_PATH = r"C:\Program Files\Admirals SC MT5 Terminal\terminal64.exe"
