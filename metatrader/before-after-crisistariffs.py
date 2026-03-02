@@ -8,7 +8,7 @@ load_dotenv()
 
 symbols = ["#ETN-T","#CLS-T","#ULTA-T","#ANET-T","#DLTR-T","#BA-T","#WMT-T","#SMCI.US-T","#NVDA-T","#AMD-T","#WBD.US-T","#NKE-T","#FIX-T"]
 
-LOGIN = ADMIRALS_ACCOUNT
+LOGIN = int(os.getenv("ADMIRALS_LOGIN", "0"))
 PASSWORD = os.getenv('ADMIRAL_PASSWORD')
 SERVER = "AdmiralsSC-Demo"
 MT5_PATH = r"C:\\Program Files\\Admirals SC MT5 Terminal\\terminal64.exe"

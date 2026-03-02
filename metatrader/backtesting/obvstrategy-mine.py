@@ -10,7 +10,7 @@ load_dotenv()
 
 
 # === ACCOUNT LOGIN ===
-login = ROBOFOREX_ACCOUNT
+login = int(os.getenv("ROBOFOREX_LOGIN", "0"))
 password = os.getenv('SECONDARY_PASSWORD')
 server = 'RoboForex-ECN'
 terminal_path = r'C:\Program Files\RoboForex MT5 Terminal\terminal64.exe'
